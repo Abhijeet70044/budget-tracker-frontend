@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000/api";
+const BASE_URL = "https://budget-tracker-backend-r9ej.onrender.com/api";
 
 async function login(username, password) {
   const res = await fetch(`${BASE_URL}/auth/login/`, {
