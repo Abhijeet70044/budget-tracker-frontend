@@ -1,4 +1,4 @@
-const BASE_URL = "https://budget-tracker-backend-r9ej.onrender.com/api";
+const BASE_URL = "https://web-production-84535.up.railway.app/api";
 
 async function login(username, password) {
   const res = await fetch(`${BASE_URL}/auth/login/`, {
